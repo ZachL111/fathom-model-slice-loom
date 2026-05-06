@@ -1,0 +1,73 @@
+{
+  "repo": "fathom-model-slice-loom",
+  "language": "Haskell",
+  "category": "ML utilities",
+  "goal": "Create a Haskell reference implementation for slice workflows, centered on event replay, fixture event logs, and golden state snapshots.",
+  "review_model": {
+    "terms": [
+      "feature drift",
+      "window width",
+      "metric stability",
+      "explainability"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "feature drift",
+      "signal": 60,
+      "slack": 53,
+      "drag": 17,
+      "confidence": 91,
+      "score": 213,
+      "lane": "ship"
+    },
+    {
+      "name": "stress",
+      "focus": "window width",
+      "signal": 71,
+      "slack": 48,
+      "drag": 26,
+      "confidence": 69,
+      "score": 181,
+      "lane": "ship"
+    },
+    {
+      "name": "edge",
+      "focus": "metric stability",
+      "signal": 49,
+      "slack": 30,
+      "drag": 14,
+      "confidence": 76,
+      "score": 162,
+      "lane": "ship"
+    },
+    {
+      "name": "recovery",
+      "focus": "explainability",
+      "signal": 85,
+      "slack": 25,
+      "drag": 23,
+      "confidence": 65,
+      "score": 191,
+      "lane": "ship"
+    },
+    {
+      "name": "stale",
+      "focus": "feature drift",
+      "signal": 77,
+      "slack": 31,
+      "drag": 18,
+      "confidence": 75,
+      "score": 206,
+      "lane": "ship"
+    }
+  ]
+}
