@@ -1,0 +1,22 @@
+{"confidence": -3, "drag": 9, "focus": "window width", "id": "b001", "lane": "hold", "score": 84, "signal": 41, "slack": 26, "threshold": "watch"}
+{"confidence": -2, "drag": 10, "focus": "metric stability", "id": "b002", "lane": "hold", "score": 87, "signal": 42, "slack": 27, "threshold": "watch"}
+{"confidence": -1, "drag": 11, "focus": "explainability", "id": "b003", "lane": "hold", "score": 90, "signal": 43, "slack": 28, "threshold": "watch"}
+{"confidence": 0, "drag": 12, "focus": "feature drift", "id": "b004", "lane": "hold", "score": 93, "signal": 44, "slack": 29, "threshold": "watch"}
+{"confidence": 1, "drag": 13, "focus": "window width", "id": "b005", "lane": "hold", "score": 96, "signal": 45, "slack": 30, "threshold": "watch"}
+{"confidence": 2, "drag": 14, "focus": "metric stability", "id": "b006", "lane": "watch", "score": 99, "signal": 46, "slack": 31, "threshold": "watch"}
+{"confidence": 3, "drag": 15, "focus": "explainability", "id": "b007", "lane": "watch", "score": 102, "signal": 47, "slack": 32, "threshold": "watch"}
+{"confidence": 4, "drag": 16, "focus": "feature drift", "id": "b008", "lane": "watch", "score": 105, "signal": 48, "slack": 33, "threshold": "watch"}
+{"confidence": 5, "drag": 17, "focus": "window width", "id": "b009", "lane": "watch", "score": 108, "signal": 49, "slack": 34, "threshold": "watch"}
+{"confidence": 6, "drag": 18, "focus": "metric stability", "id": "b010", "lane": "watch", "score": 111, "signal": 50, "slack": 35, "threshold": "watch"}
+{"confidence": 7, "drag": 19, "focus": "explainability", "id": "b011", "lane": "watch", "score": 114, "signal": 51, "slack": 36, "threshold": "watch"}
+{"confidence": 56, "drag": 20, "focus": "feature drift", "id": "b012", "lane": "ship", "score": 213, "signal": 52, "slack": 37, "threshold": "ship"}
+{"confidence": 57, "drag": 21, "focus": "window width", "id": "b013", "lane": "ship", "score": 216, "signal": 53, "slack": 38, "threshold": "ship"}
+{"confidence": 58, "drag": 22, "focus": "metric stability", "id": "b014", "lane": "ship", "score": 219, "signal": 54, "slack": 39, "threshold": "ship"}
+{"confidence": 59, "drag": 23, "focus": "explainability", "id": "b015", "lane": "ship", "score": 222, "signal": 55, "slack": 40, "threshold": "ship"}
+{"confidence": 60, "drag": 24, "focus": "feature drift", "id": "b016", "lane": "ship", "score": 225, "signal": 56, "slack": 41, "threshold": "ship"}
+{"confidence": 61, "drag": 25, "focus": "window width", "id": "b017", "lane": "ship", "score": 228, "signal": 57, "slack": 42, "threshold": "ship"}
+{"confidence": 62, "drag": 26, "focus": "metric stability", "id": "b018", "lane": "ship", "score": 231, "signal": 58, "slack": 43, "threshold": "ship"}
+{"confidence": 63, "drag": 27, "focus": "explainability", "id": "b019", "lane": "ship", "score": 234, "signal": 59, "slack": 44, "threshold": "ship"}
+{"confidence": 24, "drag": 8, "focus": "feature drift", "id": "b020", "lane": "ship", "score": 197, "signal": 60, "slack": 45, "threshold": "ship"}
+{"confidence": 25, "drag": 9, "focus": "window width", "id": "b021", "lane": "ship", "score": 200, "signal": 61, "slack": 46, "threshold": "ship"}
+{"confidence": 26, "drag": 10, "focus": "metric stability", "id": "b022", "lane": "ship", "score": 203, "signal": 62, "slack": 47, "threshold": "ship"}
